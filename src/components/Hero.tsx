@@ -64,9 +64,13 @@ const Hero = () => {
               {/* Background circle */}
               <div className="w-80 h-80 bg-gradient-to-br from-orange-400 to-yellow-500 rounded-full opacity-20 absolute -inset-4"></div>
               
-              {/* Profile image placeholder */}
-              <div className="w-72 h-72 bg-white rounded-full flex items-center justify-center text-gray-400 text-6xl font-bold shadow-2xl relative z-10">
-                GC
+              {/* Profile image */}
+              <div className="w-72 h-72 rounded-full overflow-hidden shadow-2xl relative z-10 border-4 border-white/20">
+                <img 
+                  src="/lovable-uploads/8c402c6f-bcf5-4854-ba0b-57d1c69a6413.png" 
+                  alt="Gopinath C - Web Developer & Designer"
+                  className="w-full h-full object-cover"
+                />
               </div>
               
               {/* Floating elements */}
